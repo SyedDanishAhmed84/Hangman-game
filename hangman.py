@@ -3,7 +3,7 @@ import random
 words=["REALMADRID","BARCELONA","LIVERPOOL","CHELSEA"]
 word=random.choice(words)
 total_chances=7
-guessed_word="_"*len(word)
+guessed_word="-"*len(word)
 while total_chances!=0:
  print(guessed_word)
  letter=input("Enter the letter : ").upper()
